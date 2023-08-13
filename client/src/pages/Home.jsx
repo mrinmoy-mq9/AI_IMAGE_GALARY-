@@ -107,7 +107,7 @@ const Home = () => {
           <div className='grid lg:grid-cols-4 sm:grid-cols-3 grid-cols-1 gap-3'>
             { searchText ? (
               <RenderCard 
-                data={allPosts}
+                data={searchResult}
                 title={'no search'}              
               />
             ) :
